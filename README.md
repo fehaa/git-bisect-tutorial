@@ -1,3 +1,11 @@
-### Git Bisect Tutorial
+﻿
+## Git Bisect Tutorial
+This repository is part of a series of practical contents developed to demonstrate test techniques.
 
-This repository is part of a series of practical content developed to show some test techniques.
+### Running this example
+If you want to run this code, make a clone of this repository and follow these steps:
+
+    $ git bisect start	// Starts git bisect
+    $ git bisect bad	// This repository is broken, so we set to bad
+    $ git bisect good	// Our first commit was good, so let's set it to good
+
