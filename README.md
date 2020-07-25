@@ -23,4 +23,4 @@ Now you will run ``git bisect good`` if the code is running well. If it isn't wo
 
 Once it's done, you must exit from ``git bisect`` running:
 
-	$ git bisect reset	//Exits from ``git bisect`` running
+	$ git bisect reset	//Exits from git bisect
