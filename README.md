@@ -10,7 +10,7 @@ If you want to run this code, make a clone of this repository and follow these s
 	$ git bisect bad master 	// This repository is broken, so we set to bad
 	$ git bisect good 58ecb3e 	// Our first commit was good, so let's set it to good
 
-Now you will run ``git bisect good`` if the code is running well. If it isn't working, you'll run ``git bisect bad``. Repeat these steps until it finds the buggy commit (98f2c97):
+Now you will run ``git bisect good`` if the code running is resulting as expected. If it isn't working, you'll run ``git bisect bad``. Repeat these steps until it finds the buggy commit (98f2c97):
 
 	98f2c97da730b5b7aa4bc09bd6d311eae3ebefd0 is the first bad commit
 	commit 98f2c97da730b5b7aa4bc09bd6d311eae3ebefd0
